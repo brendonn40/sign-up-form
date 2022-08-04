@@ -1,0 +1,9 @@
+/* html{
+    background: url("./images/halie-west-25xggax4bSA-unsplash.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+} */
+.row{
+    display: flex;
+}
