@@ -1,9 +1,9 @@
-/* html{
+.bg{
     background: url("./images/halie-west-25xggax4bSA-unsplash.jpg") no-repeat center center fixed; 
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
-} */
+    width: 40%;
+
+}
 .row{
     display: flex;
     gap: 50px;
@@ -19,4 +19,10 @@
 }
 fieldset{
     border: none;
+}
+legend{
+    padding: 12px 0px;
+}
+body{
+    display: flex;
 }
