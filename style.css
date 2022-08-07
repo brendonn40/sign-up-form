@@ -3,8 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Norse;
+    src:url("./Norse-Bold.otf");
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+legend{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 .bg{
     width: 40%;
+
 }
 .bg img{
     width: 100%;
@@ -35,4 +47,23 @@ legend{
 }
 body{
     display: flex;
+}
+.odin-bg{
+    position: fixed;
+    top: 120px;
+    left: 0;
+    background-color:rgba(0, 0,0, .4);
+    width: 40%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    font-family: "Norse";
+    font-size: 4.5rem;
+}
+
+#odin-logo{
+    width: 80px;
+    height: auto;
 }
