@@ -25,6 +25,7 @@ legend{
 
 }
 .container{
+   width: 60%;
    margin-left: 50px;
 }
 .row{
@@ -38,13 +39,22 @@ legend{
     height: 250px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: unset;
 }
 fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
     border: none;
+    width: 100%;
+    box-shadow: 5px 0px 5px #888888;
+    margin-bottom: 20px;
+    height: 250px;
 }
 legend{
-    padding: 12px 0px;
+    position: absolute;
+    top: 14px;
 }
 body{
     display: flex;
